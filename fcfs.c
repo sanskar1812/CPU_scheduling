@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
     int n,i,p[20],atat=0,awt=0;;
     float x55,x66;
@@ -148,4 +148,5 @@ void main()
           x66=(float)awt/(float)n;
           printf("The Average Waiting time is =====> %f\n",x55);
           printf("The Average Waiting time is =====> %f\n",x66);
+return 0;
     }
